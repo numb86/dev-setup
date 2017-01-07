@@ -96,8 +96,7 @@ $ ssh-keygen -t rsa
 
 これで、```id_rsa```と```id_rsa.pub```が生成される。
 
-GitHubの設定ページにて、sshを登録。  
-```id_rsa.pub```の中身を貼り付ければよい。  
+GitHubの設定ページにて、sshを登録。```id_rsa.pub```の中身を貼り付ければよい。  
 以下のコマンドで、接続を確認できる。
 
 ```
