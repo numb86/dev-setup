@@ -47,7 +47,7 @@ $ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile && sou
 
 ## MySQL
 
-```homebrew```でインストール。Node.jsで使うのなら、npmパッケージもインストールする。
+homebrewでインストール。Node.jsで使うのなら、npmパッケージもインストールする。
 
 ```
 $ brew install mysql
