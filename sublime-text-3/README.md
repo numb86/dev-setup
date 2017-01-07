@@ -46,7 +46,7 @@
 が出来る。  
 それを編集していくことで、キーバインドを変えられる。
 
-タブキーに関する部分を、コメントアウト。
+タブキーに関する部分を、コメントアウト。```insert_best_completion```で検索すると、見つけやすい。
 
 ```json
 	{ "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
@@ -58,8 +58,6 @@
 		]
 	},
 ```
-
-```insert_best_completion```で検索すると、見つけやすい。
 
 これで完了。  
 もし動かなかったら、Sublime Textを再起動してみる。
