@@ -21,7 +21,8 @@
 - [https://github.com/timonwong/OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer)
 - [https://github.com/babel/babel-sublime](https://github.com/babel/babel-sublime)
 - [https://github.com/odyssomay/sublime-lispindent](https://github.com/odyssomay/sublime-lispindent)
-
+- [https://github.com/SublimeLinter/SublimeLinter3](https://github.com/SublimeLinter/SublimeLinter3)
+- [https://github.com/roadhump/SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
 
 ## キーバインドの設定ファイル
 
