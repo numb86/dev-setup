@@ -105,8 +105,7 @@ $ ssh -T git@github.com
 
 ### macOS Sierra の場合
 
-macOS Sierra では、sshを使ったリモートとの接続を行うために、さらに手続きが必要になる。  
- ```~/.ssh```に、```config```というファイルを作成し、以下のように記述する。
+macOS Sierra では、sshを使ったリモートとの接続を行うために、さらに手続きが必要になる。```~/.ssh```に、```config```というファイルを作成し、以下のように記述する。
 
 ```
 HostKeyAlgorithms +ssh-dss
