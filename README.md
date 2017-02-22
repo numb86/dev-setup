@@ -103,9 +103,23 @@ GitHubの設定ページにて、sshを登録。```id_rsa.pub```の中身を貼�
 $ ssh -T git@github.com
 ```
 
-参考：  
-[http://qiita.com/shizuma/items/2b2f873a0034839e47ce](http://qiita.com/shizuma/items/2b2f873a0034839e47ce)
+### macOS Sierra の場合
 
+macOS Sierra では、sshを使ったリモートとの接続を行うために、さらに手続きが必要になる。  
+ ```~/.ssh```に、```config```というファイルを作成し、以下のように記述する。
+
+```
+HostKeyAlgorithms +ssh-dss
+Host *  
+    UseKeychain yes
+    AddKeysToAgent yes
+```
+
+参考：
+
+- [gitHubでssh接続する手順~公開鍵・秘密鍵の生成から~ - Qiita](http://qiita.com/shizuma/items/2b2f873a0034839e47ce)
+- [macOS Sierra で git pull できなかった話 - Qiita](http://qiita.com/totem2048/items/ec9d104a486e7a7f6243)
+- [ssh鍵認証で毎回パスワードを求められた](http://blog.ikenie3.org/xibhuairunorokaraizu/)
 
 ### プロジェクト開始時のGitHubの設定
 
