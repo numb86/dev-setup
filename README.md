@@ -2,9 +2,11 @@
 
 # Macにインストールすべきもの
 
+- Android Studio
+- XCode
 - Chrome
 - Firefox
-- Sublime Text
+- VScode
 - Google日本語入力
 - Slack
 
@@ -27,6 +29,12 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 参考：  
 [http://brew.sh/index_ja.html](http://brew.sh/index_ja.html)
+
+### homebrew で入れるもの
+
+- MySQL
+- git
+- yarn
 
 
 ## nodebrew
