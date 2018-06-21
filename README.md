@@ -34,7 +34,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 - MySQL
 - git
-- yarn
+- `$ brew install yarn --without-node`
 
 
 ## nodebrew
