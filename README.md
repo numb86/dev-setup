@@ -9,6 +9,7 @@
 - VScode
 - Google日本語入力
 - Slack
+- Docker
 
 # ターミナルを通して揃えるもの
 
